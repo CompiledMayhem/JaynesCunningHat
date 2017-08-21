@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+  <ThingDef ParentName="ApparelBase">
+	
+	<thingCategories>
+      <li>Headgear</li>
+    </thingCategories>
+
+    <defName>JanesHat</defName>
+    <label>Jayne's Hat</label>
+    <description>Man walks down the street in that hat, people know he's not afraid of anything..</description>
+    <graphicData>
+      <texPath>JanesHat</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+    </graphicData>
+    <costStuffCount>50</costStuffCount>
+	<recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+	</recipeMaker>
+	<generateCommonality>0.1</generateCommonality>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <worngraphicPath>JanesHat</worngraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Outlander</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+	<equippedStatOffsets>
+		<ShootingAccuracy>0.05</ShootingAccuracy>
+		<SocialImpact>-0.05</SocialImpact>
+	</equippedStatOffsets>
+	<statBases>
+      <Mass>0.09</Mass>
+      <ArmorRating_Blunt>0.06</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+      <Insulation_Cold>-12</Insulation_Cold>
+      <Insulation_Heat>-2</Insulation_Heat>
+    </statBases>
+  </ThingDef>
+</ThingDefs>
